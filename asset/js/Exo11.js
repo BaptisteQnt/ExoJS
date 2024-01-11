@@ -1,3 +1,5 @@
+// Exo JS Dom Exo 2 
+
 document.querySelector('#num1').addEventListener('change',
     function calcul() {
         let num = document.querySelector('#num1').value;

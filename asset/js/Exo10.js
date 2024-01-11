@@ -1,4 +1,4 @@
-
+// Exercice JS Dom Exo 1
 
 document.querySelector('#first').addEventListener('change',
     function mimic() {
