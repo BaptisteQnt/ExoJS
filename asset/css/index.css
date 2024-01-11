@@ -1,7 +1,10 @@
+/* Exo12.js Exo 3 DOM */
+
 .flex {
     display: flex;
     justify-content: space-around;
     margin-bottom: 2vh;
+    
 }
 
 .rev {
@@ -9,20 +12,36 @@
     flex-direction: column-reverse;
 }
 
-/* .rev #carre4 {
-    order: 2;
-}
-
-.rev #carre3 {
-    order: 1;
-} */
 
 .carre {
     min-height: 250px;
     min-width: 250px;
-    border: 1px solid black;
+   
 }
 
 .bg {
     background-color: blue;
+    border: 1px solid black;
 }
+
+/* Exo13.js Exo 4 DOM */
+
+.img {
+    width: 125px;
+    height: 125px;
+    border: solid 1px black;
+    margin: 1.5vh;
+}
+
+.imageXXL {
+    border: 1px solid black;
+    width: 750px;
+    height: 750px;
+}
+
+.img1 {
+    background-image: url(../img/logo-2582748_1280.webp);
+    background-repeat: no-repeat;
+    background-size: 125px;
+}
+
