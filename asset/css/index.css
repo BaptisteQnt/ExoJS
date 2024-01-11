@@ -1,0 +1,15 @@
+.flex {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+}
+
+.carre {
+    min-height: 250px;
+    min-width: 250px;
+    border: 1px solid black;
+}
+
+.bg {
+    background-color: blue;
+}
