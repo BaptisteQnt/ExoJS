@@ -4,6 +4,19 @@
     margin-bottom: 2vh;
 }
 
+.rev {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* .rev #carre4 {
+    order: 2;
+}
+
+.rev #carre3 {
+    order: 1;
+} */
+
 .carre {
     min-height: 250px;
     min-width: 250px;

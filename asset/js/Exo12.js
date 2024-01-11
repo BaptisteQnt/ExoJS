@@ -13,7 +13,7 @@ const btn = document.querySelector('#btn').addEventListener('click', function mo
         // Je définis les éléments HTML que je vais cibler 
         const car = document.querySelectorAll('.carre');
         // Je viens mettre une condition pour reset l'index quand le nombre de carrés totaux a été atteins d'où le .lenght
-        if(index <= car.length){
+        if(index <= 3){
             // Je viens mettre une condition pour remove le bg en supprimant une classe du carré anterieur uniquement si un tour a déja été faits
             if(index > 0){
                 car[index - 1].classList.remove('bg');
@@ -28,11 +28,15 @@ const btn = document.querySelector('#btn').addEventListener('click', function mo
         } else {
             // réinitialise index lorsque que l'ensemble des carré est fait.
             index = 0
+            car[3].classList.remove('bg');
         }
     }
 
     chngC();
 })
+
+
+
 
 
 // 1 er essaie Non concluant
