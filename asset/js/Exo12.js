@@ -1,5 +1,4 @@
-// Aide de Google pour trouver une inspiration de comment résoudre l'exercice sans Copier Coller ou recopiage des solution 
-
+ 
 // Je définis un Index pour pouvoir parcourir différentes div
 let index = 0;
 
