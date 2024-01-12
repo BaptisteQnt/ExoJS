@@ -7,68 +7,94 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
-        <labels>Date d'anniversaire</labels>
-        <input id="anniv" type="date">
-        <input value="Envoyer" type="button" onclick="Verif()">
-    </form>
-
-    <h1>Exercice 1 DOM</h1>
-
-    <form>
-        <label>Texte</labels>
-        <input id="first" type="textarea">
-        <label>la copie ici</label>
-        <input value="" id="second" type="textarea"> 
-    </form>
-
-    <h1>Exercice 2 DOM</h1>
-
-    <form>
-        <input id="num1" type="number">
-        <input id="num2" type="number">
-        <input value="" id="carre" type="number">
-        <input value="" id="cube" type="number">  
-    </form>
-
-    <h1>Exercice 3 DOM</h1>
-    <div class="flex">
-        <div id="div" class="">
-            <p id="carre1" class="carre"></p> 
-            <p id="carre2" class="carre"></p>
-        </div>
-        <div class="rev">
-            <p id="carre4" class="carre "></p>
-            <p id="carre3" class="carre "></p>
-        </div>
+    <!-- Calculatrice HTML -->
+    <div class="app">
+        <a>Faire apparaitre la calculatrice</a>
+        <p>//</p>
+        <a>Faire disparaitre la calculatrice</a>
     </div>
-    <input id="btn" value="Changer" type="button">
-    
-    <h1>Exercice 4 DOM</h1>
-
-    <div class="flex">
-        <div id="XXL" class="imageXXL"></div>
-        <div>image XS
-            <div class="flex">
-                <div class="img img1"></div>
-                <div class="img img2"></div>
+    <div class="divc">
+        <form>
+            <input class="hov" id="nbre" type="number" name="nombresaisie">
+            <select id="opera" name="op">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input class="hov" id="nbre2" type="number" name="nombresaisie2">
+            <input id="btn" value="Calculer" type="submit">
+            <div class="divi">
+                <p id="appn" class="infos no">Saisir un nombre</p>
+                <p id="appope"class="infos no"> Saisir un opérarteur</p>
             </div>
-            <div class="flex">
-                <div class="img img3"></div>
-                <div class="img img4"></div>
-            </div>
-            <div class="flex">
-                <div class="img img5"></div>
-                <div class="img img6"></div>
-            </div>
-            <div class="flex">
-                <div class="img img7"></div>
-                <div class="img img8"></div>
-            </div>
-        </div>
+        </form>
     </div>
-
-    <script src="asset/js/Exo13.js"></script>
+    <script src="asset/js/calculatrice.js"></script>
 
 </body>
 </html>
+
+
+
+
+<!-- <form>
+    <labels>Date d'anniversaire</labels>
+    <input id="anniv" type="date">
+    <input value="Envoyer" type="button" onclick="Verif()">
+</form>
+
+<h1>Exercice 1 DOM</h1>
+
+<form>
+    <label>Texte</labels>
+    <input id="first" type="textarea">
+    <label>la copie ici</label>
+    <input value="" id="second" type="textarea"> 
+</form>
+
+<h1>Exercice 2 DOM</h1>
+
+<form>
+    <input id="num1" type="number">
+    <input id="num2" type="number">
+    <input value="" id="carre" type="number">
+    <input value="" id="cube" type="number">  
+</form>
+
+<h1>Exercice 3 DOM</h1>
+<div class="flex">
+    <div id="div" class="">
+        <p id="carre1" class="carre"></p> 
+        <p id="carre2" class="carre"></p>
+    </div>
+    <div class="rev">
+        <p id="carre4" class="carre "></p>
+        <p id="carre3" class="carre "></p>
+    </div>
+</div>
+<input id="btn" value="Changer" type="button">
+
+<h1>Exercice 4 DOM</h1>
+
+<div class="flex">
+    <div id="XXL" class="imageXXL"></div>
+    <div>image XS
+        <div class="flex">
+            <div class="img img1"></div>
+            <div class="img img2"></div>
+        </div>
+        <div class="flex">
+            <div class="img img3"></div>
+            <div class="img img4"></div>
+        </div>
+        <div class="flex">
+            <div class="img img5"></div>
+            <div class="img img6"></div>
+        </div>
+        <div class="flex">
+            <div class="img img7"></div>
+            <div class="img img8"></div>
+        </div>
+    </div>
+</div> -->

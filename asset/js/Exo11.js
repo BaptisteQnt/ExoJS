@@ -12,3 +12,4 @@ document.querySelector('#num1').addEventListener('input',
         console.log("ok");
     }
 )
+

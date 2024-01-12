@@ -62,3 +62,69 @@
     background-repeat: no-repeat;
     background-size: 750px;
 }
+
+/* Calculatrice CSS */
+
+body {
+    text-align: center;
+}
+
+.divc {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+form {
+    border: 1px solid rgb(106, 12, 12);
+    border-radius: 15px;
+    padding: 10vh;
+    background-color: rgb(37, 37, 37);
+}
+
+input {
+    border: 2px orange solid;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    font-size: 25px;
+}
+
+select {
+    border: 2px orange solid;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    font-size: 25px;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+
+.app {
+    margin-top: 10vh;
+    font-size: 25px;
+}
+
+#btn {
+    color: orange;
+    margin-left: 4vh;
+}
+
+.no {
+    display: none;
+}
+
+.infos {
+    font-size: 25px;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(37, 37, 37);
+    border: 2px rgb(166, 15, 28) solid ;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 1.5vh;
+}
+
+.divi {
+    display: flex;
+    justify-content: center;
+}
