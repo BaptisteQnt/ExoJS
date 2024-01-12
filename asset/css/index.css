@@ -45,3 +45,20 @@
     background-size: 125px;
 }
 
+.img1xxl {
+    background-image: url(../img/logo-2582748_1280.webp);
+    background-repeat: no-repeat;
+    background-size: 725px;
+}
+
+.img2 {
+    background-image: url(../img/fotor-20240112105459.png);
+    background-repeat: no-repeat;
+    background-size: 125px;
+}
+
+.img2xxl {
+    background-image: url(../img/fotor-20240112105459.png);
+    background-repeat: no-repeat;
+    background-size: 750px;
+}
