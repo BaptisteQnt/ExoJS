@@ -128,3 +128,17 @@ select {
     display: flex;
     justify-content: center;
 }
+
+/* Exo ajax Chien */
+
+#imgchien {
+    text-align: center;
+    margin: 10vw 10vw 3vw 10vw;
+}
+
+
+#btn {
+    color: white;
+    background-color: lightskyblue;
+    border: none;
+}

@@ -33,12 +33,8 @@ const form = document.querySelector('form');
 
 const link = document.querySelectorAll('a');
 
-
-
 link[0].addEventListener('click', display);
 link[1].addEventListener('click', none);
-
-
 
 function none(){
     document.querySelector('.divc').classList.add('no');

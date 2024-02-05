@@ -7,14 +7,30 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="imgchien">
-        <img id="img" width="auto" height="auto" src="">
+    <!-- Calculatrice HTML -->
+    <div class="app">
+        <a>Faire apparaitre la calculatrice</a>
+        <p>//</p>
+        <a>Faire disparaitre la calculatrice</a>
     </div>
-    <button type="button" id="btn">Afficher un chien</button>
-
-
-
-    <script src="asset/js/ajax.js"></script>
+    <div class="divc">
+        <form>
+            <input class="hov" id="nbre" type="number" name="nombresaisie">
+            <select id="opera" name="op">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input class="hov" id="nbre2" type="number" name="nombresaisie2">
+            <input id="btn" value="Calculer" type="submit">
+            <div class="divi">
+                <p id="appn" class="infos no">Saisir un nombre</p>
+                <p id="appope"class="infos no"> Saisir un opérarteur</p>
+            </div>
+        </form>
+    </div>
+    <script src="asset/js/calculatrice.js"></script>
 
 </body>
 </html>
