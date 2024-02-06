@@ -106,7 +106,7 @@ select {
 
 #btn {
     color: orange;
-    margin-left: 4vh;
+    background-color: black;
 }
 
 .no {
@@ -134,11 +134,38 @@ select {
 #imgchien {
     text-align: center;
     margin: 10vw 10vw 3vw 10vw;
+    width: 50vw;
+    height: 50vw;
+}
+
+#imgchien {
+    display: flex;
+    justify-content: space-between;
 }
 
 
-#btn {
-    color: white;
-    background-color: lightskyblue;
-    border: none;
+
+#imgsave {
+    display: flex;
+    justify-content: space-around;
+    max-width: 90%;
+    flex-wrap: wrap;
+};
+
+#imgsave img {
+    width: 7vw;
+    height: 7vw;
+    margin-top: 3vw;
+}
+
+#img {
+    min-width: 50vw;
+    min-height: 50vw;
+    border: solid black 1px;
+}
+
+#sauv {
+    margin-top: 3vw;
+    background-color: orange;
+    color: black;
 }
